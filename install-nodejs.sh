@@ -4,7 +4,7 @@ curl -sL https://deb.nodesource.com/setup_12.x -o /tmp/nodesource_setup.sh \
 && \
 sudo bash /tmp/nodesource_setup.sh \
 && \
-sudo apt install nodejs \
+sudo apt install nodejs -y \
 && \
 sudo npm i -g pm2 \
 && \
