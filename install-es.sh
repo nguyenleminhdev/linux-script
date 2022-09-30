@@ -26,9 +26,7 @@ sudo systemctl status elasticsearch.service \
 && \
 sudo systemctl status kibana.service \
 && \
-curl -XGET http://localhost:9200 \
-&& \
-curl -XGET http://localhost:5601 \
+curl -XGET http://localhost:9200
 
 # run script: 
 # bash <(curl -s https://raw.githubusercontent.com/nguyenleminhdev/linux-script/master/install-es.sh)
