@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-curl -sL https://deb.nodesource.com/setup_17.x -o /tmp/nodesource_setup.sh \
+curl -sL https://deb.nodesource.com/setup_12.x -o /tmp/nodesource_setup.sh \
 && \
 sudo bash /tmp/nodesource_setup.sh \
 && \
